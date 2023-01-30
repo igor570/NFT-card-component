@@ -1,0 +1,23 @@
+.BG {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.cardBG{
+    background-color: hsl(216, 50%, 16%);
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    position: relative;
+    margin: 0 auto;
+    transform: translateY(50%);
+}
+
+.ethMainPic {
+    outline: red 1px solid;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+
+}
