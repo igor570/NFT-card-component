@@ -23,6 +23,24 @@
 
 }
 
+.overlay {
+    position: absolute;
+    top: 175px;
+    bottom: 0;
+    left: 170px;
+    right: 0;
+    scale: 1.5;
+    opacity: 0;
+    transition: .3s ease;
+    z-index: 2;
+    cursor: pointer;
+
+}
+
+.ethMainPic:hover .overlay{
+    opacity: 1;
+}
+
 .underPicture{
     margin-top: -10px;
 }
